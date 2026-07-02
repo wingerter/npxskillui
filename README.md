@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://skillui.vercel.app">
+  <a href="https://npxskillui.vercel.app">
     <img src="skillui.png" alt="SkillUI" width="620" />
   </a>
   <br /><br />
   <p><strong>Reverse-engineer any design system into a Claude-ready skill.<br/>Pure static analysis. No AI. No API keys.</strong></p>
 
-  [![npm version](https://img.shields.io/npm/v/skillui?color=%23e8735a&label=skillui&style=flat-square)](https://www.npmjs.com/package/skillui)
-  [![npm downloads](https://img.shields.io/npm/dm/skillui?color=%23e8735a&style=flat-square)](https://www.npmjs.com/package/skillui)
+  [![npm version](https://img.shields.io/npm/v/npxskillui?color=%23e8735a&label=npxskillui&style=flat-square)](https://www.npmjs.com/package/npxskillui)
+  [![npm downloads](https://img.shields.io/npm/dm/npxskillui?color=%23e8735a&style=flat-square)](https://www.npmjs.com/package/npxskillui)
   [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square)](https://nodejs.org)
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/amaancoderx/npxskillui/blob/main/LICENSE)
   [![GitHub repo](https://img.shields.io/badge/source-npxskillui-gray?style=flat-square&logo=github)](https://github.com/amaancoderx/npxskillui)
@@ -21,6 +21,8 @@ https://github.com/user-attachments/assets/4d6b63f1-8042-44a2-8f4f-a92fedadcaf9
 
 ---
 
+> **Fork notice** — `npxskillui` is a fork of [skillui](https://github.com/amaancoderx/npxskillui) by **Amaan Khan** ([@amaancoderx](https://github.com/amaancoderx)), extended with automatic cookie/consent-banner dismissal. Original work © Amaan Khan; fork © wingerter / MindBlow Media. Both MIT — see [License](#license).
+
 ## What is SkillUI?
 
 **SkillUI** is a CLI that crawls any website, git repo, or local codebase and extracts its complete design system - colors, typography, spacing, animations, components, screenshots - packaged into a folder Claude Code reads automatically.
@@ -32,7 +34,7 @@ Open the output folder, type `claude`, and ask Claude to build your UI. It alrea
 ## Install
 
 ```bash
-npm install -g skillui
+npm install -g npxskillui
 ```
 
 > Requires **Node.js 18+**
@@ -191,51 +193,24 @@ skillui --url https://linear.app --out ./design-systems
 
 | | |
 |---|---|
-| **Package** | [npmjs.com/package/skillui](https://www.npmjs.com/package/skillui) |
-| **Latest version** | `1.3.4` |
-| **First published** | April 8, 2026 |
-| **Last updated** | April 10, 2026 |
+| **Package** | [npmjs.com/package/npxskillui](https://www.npmjs.com/package/npxskillui) |
+| **Latest version** | `1.0.0` |
+| **Based on** | skillui `1.3.4` (upstream) |
 | **License** | MIT |
-| **Author** | [Amaan](https://github.com/amaancoderx) |
-| **Homepage** | [skillui.vercel.app](https://skillui.vercel.app) |
-| **Issues** | [GitHub Issues](https://github.com/amaancoderx/npxskillui/issues) |
+| **Original author** | [Amaan Khan](https://github.com/amaancoderx) |
+| **Fork maintainer** | [wingerter](https://github.com/wingerter) |
+| **Homepage** | [npxskillui.vercel.app](https://npxskillui.vercel.app) |
+| **Issues** | [GitHub Issues](https://github.com/wingerter/npxskillui/issues) |
 
 </div>
 
 ### Version History
 
-<details>
-<summary>View all 25 releases</summary>
-
-| Version | Released |
+| Version | Notes |
 |---|---|
-| `1.3.4` ⬅ latest | May 8, 2026 |
-| `1.3.3` | May 8, 2026 |
-| `1.3.2` | April 10, 2026 |
-| `1.3.1` | April 10, 2026 |
-| `1.3.0` | April 10, 2026 |
-| `1.2.9` | April 10, 2026 |
-| `1.2.8` | April 10, 2026 |
-| `1.2.7` | April 10, 2026 |
-| `1.2.6` | April 10, 2026 |
-| `1.2.5` | April 10, 2026 |
-| `1.2.4` | April 10, 2026 |
-| `1.2.3` | April 10, 2026 |
-| `1.2.2` | April 10, 2026 |
-| `1.2.1` | April 9, 2026 |
-| `1.2.0` | April 9, 2026 |
-| `1.1.9` | April 9, 2026 |
-| `1.1.8` | April 9, 2026 |
-| `1.1.7` | April 9, 2026 |
-| `1.1.6` | April 9, 2026 |
-| `1.1.5` | April 9, 2026 |
-| `1.1.4` | April 8, 2026 |
-| `1.1.3` | April 8, 2026 |
-| `1.1.2` | April 8, 2026 |
-| `1.1.1` | April 8, 2026 |
-| `1.1.0` | April 8, 2026 |
+| `1.0.0` ⬅ latest | Initial fork release. Adds automatic cookie/consent-banner dismissal (Cookiebot, OneTrust, Osano, TrustArc) before capture. Based on upstream skillui `1.3.4`. |
 
-</details>
+Upstream skillui release history: [amaancoderx/npxskillui](https://github.com/amaancoderx/npxskillui).
 
 ---
 
@@ -261,13 +236,19 @@ Whenever a page is loaded in a browser (URL and ultra modes), a page-init hook r
 
 ## Links
 
-- [npm package](https://www.npmjs.com/package/skillui)
-- [Landing page](https://skillui.vercel.app)
-- [Source code](https://github.com/amaancoderx/npxskillui)
-- [Issues](https://github.com/amaancoderx/npxskillui/issues)
+- [npm package](https://www.npmjs.com/package/npxskillui)
+- [Landing page](https://npxskillui.vercel.app)
+- [Source code (this fork)](https://github.com/wingerter/npxskillui)
+- [Issues](https://github.com/wingerter/npxskillui/issues)
+- [Upstream — original skillui by Amaan Khan](https://github.com/amaancoderx/npxskillui)
 
 ---
 
 ## License
 
-MIT - built by [Amaan](https://github.com/amaancoderx)
+MIT — see [LICENSE](LICENSE).
+
+`npxskillui` is a fork of [skillui](https://github.com/amaancoderx/npxskillui), originally
+created by **Amaan Khan** ([@amaancoderx](https://github.com/amaancoderx)) and extended with
+automatic cookie/consent-banner dismissal. Original work © Amaan Khan; fork modifications
+© wingerter / MindBlow Media. Both under the MIT License.
