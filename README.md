@@ -21,8 +21,6 @@ https://github.com/user-attachments/assets/4d6b63f1-8042-44a2-8f4f-a92fedadcaf9
 
 ---
 
-> **Fork notice** — `npxskillui` is a fork of [skillui](https://github.com/amaancoderx/npxskillui) by **Amaan Khan** ([@amaancoderx](https://github.com/amaancoderx)), extended with automatic cookie/consent-banner dismissal. Original work © Amaan Khan; fork © wingerter / MindBlow Media. Both MIT — see [License](#license).
-
 ## What is SkillUI?
 
 **SkillUI** is a CLI that crawls any website, git repo, or local codebase and extracts its complete design system - colors, typography, spacing, animations, components, screenshots - packaged into a folder Claude Code reads automatically.
@@ -252,3 +250,7 @@ MIT — see [LICENSE](LICENSE).
 created by **Amaan Khan** ([@amaancoderx](https://github.com/amaancoderx)) and extended with
 automatic cookie/consent-banner dismissal. Original work © Amaan Khan; fork modifications
 © wingerter / MindBlow Media. Both under the MIT License.
+
+---
+
+<div align="center"><sub>A fork of <a href="https://github.com/amaancoderx/npxskillui">skillui</a> by Amaan Khan, extended with automatic cookie-dismiss.</sub></div>
